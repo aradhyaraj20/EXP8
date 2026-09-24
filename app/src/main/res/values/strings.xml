@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EXP8</string>
+    <string name="menu_google">Google</string>
+    <string name="menu_wikipedia">Wikipedia</string>
+    <string name="menu_youtube">YouTube</string>
+    <string name="menu_github">GitHub</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_forward">Forward</string>
+    <string name="menu_websites">Bookmarks</string>
+    <string name="menu_offline_html">Local HTML (Offline)</string>
+    <string name="nav_webview">Web View</string>
+    <string name="nav_gridview">Image Grid</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_share">Share</string>
+    <string name="menu_dns_help">Emulator DNS Info</string>
+</resources>

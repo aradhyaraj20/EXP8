@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_back"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="@string/menu_back"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_forward"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title="@string/menu_forward"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_websites"
+        android:icon="@drawable/ic_language"
+        android:title="@string/menu_websites"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_google"
+                android:title="@string/menu_google" />
+            <item
+                android:id="@+id/menu_wikipedia"
+                android:title="@string/menu_wikipedia" />
+            <item
+                android:id="@+id/menu_youtube"
+                android:title="@string/menu_youtube" />
+            <item
+                android:id="@+id/menu_github"
+                android:title="@string/menu_github" />
+            <item
+                android:id="@+id/menu_offline_html"
+                android:title="@string/menu_offline_html" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_select_all"
+        android:title="@string/action_select_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/action_edit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_dns_help"
+        android:title="@string/menu_dns_help"
+        app:showAsAction="never" />
+
+</menu>
